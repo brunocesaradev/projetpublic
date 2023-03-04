@@ -3,7 +3,7 @@
 print("Vamos dividir números, para isso, digite um dividendo e um divisor")
 num1 = float(input('Digite o primeiro número que será o dividendo:'))
 num2 = float(input('Digite o segundo número que será o divisor:'))
-divisaoreal = num1/num2
 divisaoint = num1//num2
-print(f"O resultado {divisaoreal} ")
+divisaorest = num1%num2
 print(f"O resultado {divisaoint} ")
+print(f"O resultado {divisaorest} ")
